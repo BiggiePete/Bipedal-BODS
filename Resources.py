@@ -33,8 +33,8 @@ def map(x, in_min, in_max, out_min, out_max):
 
 
 def convert_angle(angle):
-    """Converts some ANGLE between 0-270 to acceptable servo values
-
+    """[DEPRICATED] Converts some ANGLE between 0-270 to acceptable servo values
+        Depricated: just type in the angle normally as the kit class can handle the actual rotation angles of the servo
     Args:
         angle (int): some angle 0-270 that should be converted
 
