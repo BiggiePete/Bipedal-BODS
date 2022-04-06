@@ -1,6 +1,5 @@
 from time import sleep
 from Servo import Servo
-from Walk import _walk
 
 
 class Walker:
