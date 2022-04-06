@@ -55,7 +55,15 @@ class Walker:
             self.LShin.SetAngle(270 - self.LThigh.GetAngle() + 20)
             return 2
 
-    def step(self,r):
+    def StepLeg(self,r):
+        """Continues the step of a leg
+
+        Args:
+            r (Int): right > 0 or left leg 
+
+        Returns:
+            Int: Number of secons to wait for the anim to finish
+        """
         if r > 0:
             #step the right leg
             self.RTHigh.SetAngle(150)
